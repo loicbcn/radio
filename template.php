@@ -25,7 +25,6 @@
 		h1{ margin: 0; padding:0; color:#ffffff; font-size: 2.4rem; }
 		#main {
 		    flex: 1;
-		    justify-content: stretch;
 		    overflow-y: auto;
 		    background: #e1e1e1;
 		    display: flex;

@@ -56,7 +56,7 @@
 				<div class="oneradio">
 					<div class="name"><?php echo $r[0];?></div>
 					<div class="player">
-						<audio id="a_<?php echo $k;?>" controls preload="none" onpause="stopme('a_<?php echo $k;?>')" src="<?php echo $r[1]; ?>" type="audio/mpeg"></audio>
+						<audio id="a_<?php echo $k;?>" controls preload="none" onpause="stopme('a_<?php echo $k;?>')" src="<?php echo $r[1]; ?>"></audio>
 						<div>
 						<a class="secourlink" href="<?php echo $r[1]; ?>">Si le player ne fonctionne pas, cliquer ici...</a>
 						</div>

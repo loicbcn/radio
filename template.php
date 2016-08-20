@@ -74,7 +74,6 @@
 		function stopme(who){
 			var elem = document.getElementById(who);
 			var oldSrc = elem.src;
-			console.log(oldSrc);
 			elem.src = oldSrc;
 		}
 	</script>

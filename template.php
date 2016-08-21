@@ -12,7 +12,6 @@
 		body {
 			margin: 0;
 			height: 100%;
-			background: yellow;
 			display: flex;
 			flex-direction: column;
 			font-family: Arial, Helvetica, "Liberation Sans", FreeSans, sans-serif;

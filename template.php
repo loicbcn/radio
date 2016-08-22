@@ -54,7 +54,7 @@
 				<div class="oneradio">
 					<div class="name"><?php echo $r[0];?></div>
 					<div class="player">
-						<audio id="a_<?php echo $k;?>" controls preload="none" onpause="stopme('a_<?php echo $k;?>')" src="<?php echo $r[1]; ?>"></audio>
+						<audio id="a_<?php echo $k;?>" controls preload="none" onplay="stopfriends('a_<?php echo $k;?>')" onpause="stopme('a_<?php echo $k;?>')" src="<?php echo $r[1]; ?>"></audio>
 						<div>
 						<a class="secourlink" href="<?php echo $r[1]; ?>">Si le player ne fonctionne pas, cliquer ici...</a>
 						</div>
@@ -69,11 +69,18 @@
 			</div>
 		</footer>
 	<script>
+		var playing = '';
 		function stopme(who){
 			var elem = document.getElementById(who);
 			var oldSrc = elem.src;
 			elem.src = oldSrc;
 		}
+		function stopfriends(who){
+			if( playing !== '' && playing !== who){
+				document.getElementById(playing).pause();
+			}
+			playing = who;
+		}		
 	</script>
 	</body>
 </html>

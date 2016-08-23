@@ -7,7 +7,8 @@
 		<style>
 		html {
 			font-size: 62.5%;
-			font-size: calc(1em * 0.625); 
+			font-size: calc(1em * 0.625);
+			height:100%;
 		}
 		body {
 			margin: 0;

@@ -1,4 +1,5 @@
 > English - anglais - inglés
+
 # Hello
 Radio is a simply page made for listening my prefered radios. The natives apps of the proper radios was getting on my nerves because of their bugs, weight, addicional contents ...
 
@@ -17,6 +18,7 @@ The styles and a little bit of javascript are in the same template.php, trying t
 #### Thanks for looking, trying, voting, criticizing, loving, hating, listening.
 __________________
 >  Français - french - francés
+
 # Bonjour
 Radio est une page toute simple faite dans le but d'écouter mes radios préférées. Je n'en pouvais plus des applications natives, trop lourdes, trop bugguées, avec des contenus additionnels inapropriés et j'en passe et des meilleures.
 
@@ -35,6 +37,7 @@ Les styles et un petit bout de javascript se trouvent dans ce même fichier temp
 #### Merci pour regarder, essayer, voter, critiquer, aimer, détester, écouter.
 _______
 > Español, espagnol, spanish
+
 # Hola
 Radio es una página muy simple hecha con el objetivo de escuchar mis radios preferidas. No podía más con las aplicaciones nativas, con demasiado peso, bugs y con contenidos adicionales inapropriados.
 
